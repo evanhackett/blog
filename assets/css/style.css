@@ -258,6 +258,11 @@ em, i { font-style: italic; }
 	margin-top: 2px;
 }
 
+.post-title {
+	max-width: 400px;
+	/*outline: 1px solid red;*/
+}
+
 h3, h4, h5 { color:#333; }
 
 h3 { font-size:20px; font-weight: 400; }
