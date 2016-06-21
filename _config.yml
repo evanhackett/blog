@@ -1,11 +1,13 @@
-name: Your New Jekyll Site
+name: Evan Hackett
 description: Blogging about stuffs
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 aboutPage: true
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
 
 paginate: 20
 baseurl: /
@@ -16,7 +18,7 @@ disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
-author:         'Your Name'
+author:         'Evan Hackett'
 authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
