@@ -1,6 +1,6 @@
 name: Evan Hackett
 description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "Evan Hackett's blog"
 
 aboutPage: true
 
@@ -11,13 +11,13 @@ gems: [jekyll-paginate]
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://evanhackett.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            "http://evanhackett.com"
 author:         'Evan Hackett'
 authorTwitter:  'YourTwitterUsername'
 
