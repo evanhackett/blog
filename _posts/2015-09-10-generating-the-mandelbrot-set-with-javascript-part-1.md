@@ -37,4 +37,4 @@ We are half way there already. Lets take another look at the first half of the d
 Stay tuned for [part 2][part2], where I will cover how the Mandelbrot set is actually generated, and how beautiful pictures can be made.
 
 [definition]: http://en.wikipedia.org/wiki/Mandelbrot_set
-[part2]: http://evanhackett.com/generating-the-mandelbrot-set-with-javascript-part-2/
+[part2]: http://evanhackett.com/2015/generating-the-mandelbrot-set-with-javascript-part-2/

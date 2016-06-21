@@ -175,5 +175,5 @@ I’ll leave this as an exercise to the reader. If you want extra credit points,
 
 Thank you for reading, I hope you enjoyed our dive into the innards of generating the Mandelbrot Set! Be sure to check out my Mandelbrot Set generator where you can zoom in anywhere the user clicks: [here][deployed]
 
-[part1]: http://evanhackett.com/generating-the-mandelbrot-set-with-javascript-part-1/
+[part1]: http://evanhackett.com/2015/generating-the-mandelbrot-set-with-javascript-part-1/
 [deployed]: http://evanhackett.com/MandelbrotSet/
