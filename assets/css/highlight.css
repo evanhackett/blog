@@ -2,6 +2,14 @@
   IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
 */
 
+.highlight {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1px 3px;
+  font-family: Consolas,Menlo,"Liberation Mono",Courier,monospace;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
@@ -104,4 +112,3 @@
 .xml .hljs-cdata {
   opacity: 0.7;
 }
-
