@@ -7,6 +7,19 @@
     <atom:link href="http://evanhackett.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Using De Morgan&#39;s Laws for Simpler Regex</title>
+        
+        
+          <description>&lt;p&gt;Often times tools from propositional logic can be useful while programming. A good example of this came up when I was writing some password validation code. As is common, I needed to make sure the password was at least 8 characters, contained at least 1 uppercase, 1 lowercase, and 1 number. Pretty standard. Instead of doing it with for-loops and if-statements (or filters and predicates), I needed to do it the regular expressions. This was because the ORM for the data model had a built in validator that accepted regex objects. So all I had to do was construct the proper regex, hand it to the ORM’s validator, and then whenever a corresponding model object tries to save, the ORM would run the validation on it. Good stuff. But I hadn’t worked with regex very much, so I had a little trouble coming up with the regex I needed. De Morgan’s Laws to the rescue!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 21 Jan 2017 10:40:18 -0800</pubDate>
+        <link>http://evanhackett.com/2017/demorgans/</link>
+        <guid isPermaLink="true">http://evanhackett.com/2017/demorgans/</guid>
+      </item>
+    
+      <item>
         <title>Higher-Order Functions</title>
         
         
