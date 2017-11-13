@@ -32,13 +32,13 @@ function infiniteLoop() {
 lessThan10(1, infiniteLoop())
 {% endhighlight %}
 
-In the above code, the function lessThan10 returns true if either argument is less than 10. infiniteLoop simply enters an infinite loop. Simple enough, right? Most of you can probably tell that when I call {% ihighlight javascript%}lessThan10{% endihighlight %} passing in {% ihighlight javascript%}1{% endihighlight %} and a call to {% ihighlight javascript%}infiniteLoop(){% endihighlight %} the code will immediately enter an infinite loop.
+In the above code, the function lessThan10 returns true if either argument is less than 10. infiniteLoop simply enters an infinite loop. Simple enough, right? Most of you can probably tell that when I call lessThan10 passing in 1 and a call to infiniteLoop() the code will immediately enter an infinite loop.
 
 Now lets take a look at what happens when running the same code using a normal-order language.
 
 <b>Normal Order</b> - Languages that delay evaluation of procedure arguments until the last possible moment (when the actual parameters are needed). This is a form of "lazy evaluation". Haskell and Miranda are examples of languages that use lazy evaluation.
 
-Now things are a little more interesting. Instead of immediately running {% ihighlight javascript%}infiniteLoop(){% endihighlight %} when the function is called, the program will enter the body of {% ihighlight javascript%}lessThan10{% endihighlight %} and short-circuit on the {% ihighlight javascript%}||{% endihighlight %} (or) operator. Since the program never needed to evaluate the formal parameter {% ihighlight javascript%}b{% endihighlight %}, we never called {% ihighlight javascript%}infiniteLoop{% endihighlight %}! This means the function successfully returns {% ihighlight javascript%}true{% endihighlight %}. Essentially we are passing the expression to the function, without yet reducing that expression to a value.
+Now things are a little more interesting. Instead of immediately running infiniteLoop() when the function is called, the program will enter the body of lessThan10 and short-circuit on the \|\| (or) operator. Since the program never needed to evaluate the formal parameter b, we never called infiniteLoop! This means the function successfully returns true. Essentially we are passing the expression to the function, without yet reducing that expression to a value.
 
 This post was meant to be a brief introduction, and barely scratches the surface of these ideas. Look out for future posts on these topics where I will discuss the practical uses of lazy evaluation, advantages and disadvantages, and how to simulate laziness in non-lazy languages.
 
