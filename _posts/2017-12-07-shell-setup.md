@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Shell Setup" 
+date: 2017-12-07 23:31:18
 description: Using One File to Configure Multiple Shells
 ---
 
