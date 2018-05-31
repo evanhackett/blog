@@ -3,7 +3,7 @@ layout: post
 title: "Higher-Order Functions"
 date: 2016-10-16 18:40:18
 image: '/assets/img/'
-description: Functional Programming Foundations - 1
+description: The Gateway to Functional Programming
 tags:
 - Functional Programming
 - Algebra
