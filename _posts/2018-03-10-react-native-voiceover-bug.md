@@ -1,6 +1,6 @@
 ---
 title:  "Voiceover Bug in React Native"
-description: Work in progress
+description: Description, Causes, and Workarounds
 date: 2018-03-10 10:03:18
 ---
 
