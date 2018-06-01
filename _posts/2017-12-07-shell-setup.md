@@ -35,7 +35,7 @@ $ chmod +x /usr/local/bin/fishlogin
 
 Set it as your default shell
 {% highlight shell_session  %}
-$ chsh -s /usr/local/fishlogin $USER
+$ chsh -s /usr/local/bin/fishlogin $USER
 {% endhighlight %}
 
 Now my "shell" is set to the executable bash script. This starts up bash, bash loads my .profile, and then fish is fired up. This all happens so fast that when I open up a new terminal I immediately see fish, with no evidence of bash firing up first.
