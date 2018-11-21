@@ -4,6 +4,10 @@ description: Description, Causes, and Workarounds
 date: 2018-03-10 10:03:18
 ---
 
+**Update (late 2018):** The issues described below have been fixed in both React and react-navigation. I'm happy to say that this blog post [actually helped the react-navigation team fix the problem][react_navigation_issue_thread] on their end! This means that stock react and stock react-navigation no longer exhibit the buggy behavior described below.
+
+---
+
 React Native has a huge accessibility problem. To put it into perspective, imagine if every element had its opacity set to 0.5. When you navigate to a new screen, you can still see all the elements from the previous screen. This is what it is like for blind users using voiceover technology with React Native apps. At the time of this writing, elements with accessibility identifiers are detected by voiceover from previously navigated to — but now inactive — screens. Meaning, voiceover will read aloud elements that should no longer be "visible".
 
 There is a github issue describing the problem [here][issue1].
@@ -56,3 +60,4 @@ For now, developers using React-Native that want accessible apps have to use for
 [sdg9_commit]: https://github.com/sdg9/react-native/commit/a001149ccb6c071a020794861008970038612978
 [fork]: https://github.com/awseeley/react-navigation
 [ulab]: http://www.universaldesignlab.com/
+[react_navigation_issue_thread]: https://github.com/react-navigation/react-navigation/issues/58#issuecomment-415169150
