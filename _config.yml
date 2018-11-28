@@ -10,13 +10,13 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 
 paginate: 20
-domain_name: 'http://evanhackett.com'
+domain_name: 'http://evanhackett.com/blog'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            "http://evanhackett.com"
+url:            "http://evanhackett.com/blog"
 author:         'Evan Hackett'
 authorTwitter:  'YourTwitterUsername'
 
